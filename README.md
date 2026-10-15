@@ -54,6 +54,28 @@ lessons::runRandomNumbers();// random numbers + dice roll
 To study a topic, open the matching `lesson_*.cpp` file — the explanatory
 comments live right next to the code.
 
+## Starting a new lesson
+
+In the CLion terminal (PowerShell), from the project folder:
+
+```powershell
+.\new-lesson loops "Loops and Conditions"
+```
+
+This creates `src/lessons/lesson_loops.h/.cpp` and adds the lesson to
+`CMakeLists.txt`, `main.cpp` and `docs/CPP_NOTES.md`. Then write your
+code in the new `.cpp` file. (In CLion, click **Reload CMake Project** if
+it doesn't pick up the new file.)
+
+## Saving to GitHub
+
+```powershell
+.\save "Add loops lesson"
+```
+
+This builds the project and, if it compiles, commits everything and
+pushes to GitHub. If the build fails, nothing is committed.
+
 ## Note on input
 
 Several lessons read from the console with `cin`. When you run the program
