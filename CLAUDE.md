@@ -42,4 +42,4 @@ Use the scaffolding script (run from the project root in PowerShell):
 .\save "commit message"
 ```
 
-`scripts/save.ps1` builds (using CLion's bundled cmake/MinGW if `cmake` isn't on PATH), and only if the build succeeds runs `git add -A`, commits and pushes to `origin` (github.com/abakahjayy/HelloWorld). The `.cmd` wrappers at the root exist to bypass PowerShell's execution policy.
+`scripts/save.ps1` builds (using CLion's bundled cmake/MinGW if `cmake` isn't on PATH), and only if the build succeeds runs `git add -A`, commits and pushes to `origin` (github.com/abakahjay/HelloWorld). The `.cmd` wrappers at the root exist to bypass PowerShell's execution policy.
