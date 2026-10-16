@@ -16,6 +16,7 @@
 #include "lessons/lesson_exercises.h"
 #include "lessons/lesson_operators.h"
 #include "lessons/lesson_random.h"
+#include "lessons/lesson_loops.h"
 
 int main()
 {
@@ -33,6 +34,9 @@ int main()
 
     // Lesson 5: random numbers and the dice-roll exercise.
     lessons::runRandomNumbers();
+
+    // Lesson 6: Loops and Conditions.
+    lessons::runLoops();
 
     // ============================================================
     // END OF PROGRAM

@@ -62,4 +62,5 @@ links to the lesson file where it is demonstrated.
 | Tax calc, user input, temperature, `<cmath>` | `src/lessons/lesson_exercises.cpp` |
 | Data types, literals, brace init, `typedef` | `src/lessons/lesson_data_types.cpp` |
 | Random numbers, dice roll | `src/lessons/lesson_random.cpp` |
+| Loops and Conditions | `src/lessons/lesson_loops.cpp` |
 | Shared `pi` constant | `src/common/constants.h` |

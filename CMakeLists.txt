@@ -11,6 +11,7 @@ add_executable(HelloWorld
         src/lessons/lesson_exercises.cpp
         src/lessons/lesson_data_types.cpp
         src/lessons/lesson_random.cpp
+        src/lessons/lesson_loops.cpp
 )
 
 # Lets the sources include headers relative to src/ as well.
